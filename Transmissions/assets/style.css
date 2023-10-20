@@ -22,15 +22,17 @@
   margin: 10px;
 }
 
-.footer {
+.footer > div {
   background: linear-gradient(
     90deg,
     rgba(116, 214, 144, 1) 50%,
     rgba(92, 191, 187, 1) 100%
   );
-  display: flex;
+
   color: white;
   padding: 5px 20px;
+  display: flex;
+  align-items: center;
 }
 
 .lady {
@@ -42,4 +44,9 @@
 
 .name {
   margin-left: 7px;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+  transition-duration: 0.3s;
 }

@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  font-weight: 500;
+}
+.navigationElements {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+.nav-bar {
+  padding: 10px 24px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+}
+.navPart1,
+.navPart2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.upworkLogo {
+  width: 82px;
+  margin-right: 20px;
+}
+.nav-items {
+  width: fit-content;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shevron,
+.searchLogo {
+  width: 15px;
+}
+.search {
+  position: relative;
+  display: flex;
+  width: 20rem;
+}
+.search-field {
+  flex-grow: 1;
+  height: 35px;
+  border: 2px solid lightgray;
+  border-radius: 30px;
+  padding-left: 35px;
+}
+.searchLogo {
+  width: 20px;
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 5px 8px;
+}
+.extra-searchLogo {
+  display: none;
+}
+
+.searchMenu {
+  position: absolute;
+  background-color: white;
+  border: none;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 5px 8px;
+}
+
+.btn {
+  border-radius: 25px;
+  padding: 12px 25px;
+  border: none;
+  font-weight: 600;
+}
+.signUp {
+  background-color: green;
+  color: white;
+}
+.logIn {
+  background-color: white;
+}
+
+/* 2nd div after nav bar */
+.elements {
+  display: flex;
+  padding: 18px 12px;
+}
+.element {
+  font-size: 13px;
+  margin: 8px;
+  color: black;
+  text-decoration: none;
+  font-weight: 550;
+  transition: 0.1s;
+}
+.element:hover {
+  color: green;
+  text-decoration: underline;
+}
+.more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .nav-seperator {
+  height: 7rem;
+} */
+
+/* main */
+.mainBody {
+  padding-top: 130px;
+  padding: 130px, 2rem, 0, 2rem;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  width: 45%;
+  padding-left: 10px;
+}
+.head {
+  font-family: Rza, Rza-fallback, Georgia, serif;
+  font-size: 5rem;
+  font-weight: 600;
+  color: rgb(3, 164, 3);
+  line-height: 5rem;
+}
+.para {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 2rem;
+  margin-top: 1rem;
+  color: rgb(110, 108, 108);
+}
+.startedBtn {
+  background-color: rgb(3, 120, 3);
+  color: white;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+.image {
+  padding-top: 1rem;
+  padding-right: 5rem;
+  width: 37%;
+}
+.people {
+  width: 100%;
+}
+/* // media quries */
+@media screen and (max-width: 1200px) {
+  .search-field {
+    display: none;
+  }
+  .searchMenu {
+    display: none;
+  }
+  .searchLogo {
+    left: 90%;
+    width: 25px;
+  }
+  .nav-items {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .logIn {
+    display: none;
+  }
+  .signUp {
+    background-color: white;
+    color: black;
+  }
+}

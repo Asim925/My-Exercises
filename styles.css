@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+header {
+  background-color: #1f1f1f;
+  color: rgb(255, 229, 85);
+  padding: 1rem 0;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+#message p {
+  font-size: 1.2rem;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.gallery-item {
+  width: 100%;
+  margin-bottom: 1rem;
+  overflow: hidden;
+  border: 2px solid #555;
+  border-radius: 5px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+.imp {
+  text-align: center;
+  color: snow;
+}
+
+footer {
+  padding-top: 5rem;
+  background-color: #1f1f1f;
+  color: #ffd700;
+  text-align: center;
+  padding: 1rem 0;
+  width: 100%;
+  bottom: 0;
+}
+
+.message {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.9rem;
+}
